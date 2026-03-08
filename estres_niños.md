@@ -46,52 +46,52 @@ Cuando el cerebro dice "¡PELIGRO!", el cuerpo hace cambios mágicos:
 ```mermaid
 graph TD
     A[¡Algo salió mal! 😱] --> B{¿Respiro profundo?}
-        B -- SÍ --> C[Cerebro Feliz 😊]
-            B -- NO --> D[¡Explosión de enojo! 💥]
-                C --> E[¡Problema resuelto! ✅]
-                    D --> F[Abrazo de Papá/Mamá 🫂]
-                    ```
+    B -- SÍ --> C[Cerebro Feliz 😊]
+    B -- NO --> D[¡Explosión de enojo! 💥]
+    C --> E[¡Problema resuelto! ✅]
+    D --> F[Abrazo de Papá/Mamá 🫂]
+```
 
-                    ---
+---
 
-                    ## 5. ¡Pausa Activa! (EL RETO) 💃
-                    ### ⚠️ ¡ALERTA DE SACUDIDA! ⚠️
-                    **Todos de pie.** Tienen 10 segundos para sacudirse como si tuvieran hormigas en los pies.
+## 5. ¡Pausa Activa! (EL RETO) 💃
+### ⚠️ ¡ALERTA DE SACUDIDA! ⚠️
+**Todos de pie.** Tienen 10 segundos para sacudirse como si tuvieran hormigas en los pies.
 
-                    ¡3... 2... 1... **¡A SACUDIRSE!**!
+¡3... 2... 1... **¡A SACUDIRSE!**!
 
-                    ---
+---
 
-                    ## 6. Truco 1: Respirar como un Dragón 🐲
-                    Para apagar el fuego del estrés:
+## 6. Truco 1: Respirar como un Dragón 🐲
+Para apagar el fuego del estrés:
 
-                    1. Toma aire por la nariz como si olieras una **flor**.
-                    2. Suéltalo por la boca muy lento, como si quisieras **enfriar una sopa**.
-                    3. ¡Repite 3 veces y el fuego se apaga!
+1. Toma aire por la nariz como si olieras una **flor**.
+2. Suéltalo por la boca muy lento, como si quisieras **enfriar una sopa**.
+3. ¡Repite 3 veces y el fuego se apaga!
 
-                    ---
+---
 
-                    ## 7. Truco 2: El Semáforo de las Tareas 🚦
-                    Para que no se nos junte el trabajo (¡o los juguetes!):
+## 7. Truco 2: El Semáforo de las Tareas 🚦
+Para que no se nos junte el trabajo (¡o los juguetes!):
 
-                    - 🔴 **Rojo:** Lo más importante (¡Hacer la tarea!).
-                    - 🟡 **Amarillo:** Puede esperar un poquito (Dibujar).
-                    - 🟢 **Verde:** ¡Tiempo de jugar! (Minecraft o muñecas).
+- 🔴 **Rojo:** Lo más importante (¡Hacer la tarea!).
+- 🟡 **Amarillo:** Puede esperar un poquito (Dibujar).
+- 🟢 **Verde:** ¡Tiempo de jugar! (Minecraft o muñecas).
 
-                    ---
+---
 
-                    ## 8. El Secreto de los Gigantes 🌟
-                    Recuerda que no estás solo. Todos los héroes se estresaron alguna vez.
+## 8. El Secreto de los Gigantes 
+Recuerda que no estás solo. Todos los héroes se estresaron alguna vez.
 
-                    - **Dormir bien:** Recarga tu batería de superhéroe.
-                    - **Hablar:** Decir "estoy cansado" es de valientes.
-                    - **Dibujar:** Pon tus miedos en un papel y se harán pequeños.
+- **Dormir bien:** Recarga tu batería de superhéroe.
+- **Hablar:** Decir "estoy cansado" es de valientes.
+- **Dibujar:** Pon tus miedos en un papel y se harán pequeños.
 
-                    ---
+---
 
-                    # 🏆 ¡Misión Cumplida!
-                    ### ¿Quién quiere un abrazo o un juego ahora?
-                    **¡Son los mejores!**
+# 🏆 ¡Misión Cumplida!
+### ¿Quién quiere un abrazo o un juego ahora?
+**¡Son los mejores!**
 
-                    ![bg opacity:.4](https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=1000)
-                    .
+![bg opacity:.4](https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=1000)
+                    
