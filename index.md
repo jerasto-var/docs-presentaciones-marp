@@ -87,7 +87,7 @@ paginate: true
 ## ✍️ RETO: DICTADO
 *Escribe en tu cuaderno lo que Papá te indique:*
 
-![bg right:40% w:400](https://minecraft.wiki/images/Nether_Portal_JE2_BE2.gif)
+![bg right:40% w:400](https://i.imgur.com/K6mXfD0.gif)
 
 **Instrucción de Dictado:**
 *(Notas para Papá: "Para sobrevivir en el Nether, es obligatorio llevar al menos una pieza de armadura de oro para que los Piglins no te ataquen.")*
