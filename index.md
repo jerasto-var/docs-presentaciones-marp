@@ -67,7 +67,7 @@ paginate: true
 </style>
 
 # ⛏️ Misión 01: El Nether
-### Nivel de Dificultad: Difícil
+### Nivel de Dificultad: Survival
 
 ---
 
