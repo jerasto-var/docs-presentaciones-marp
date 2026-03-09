@@ -1,13 +1,17 @@
+name: Deploy Marp Presentation
 on:
   push:
     paths:
       - 'index.md'
+      - 'temas/**'
     branches:
       - main
 
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -17,3 +21,11 @@ jobs:
           docker run --rm -v "${{ github.workspace }}:/home/marp/app" \
           -e MARP_USER="$(id -u):$(id -g)" \
           marpteam/marp-cli index.md --html -o index.html
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          keep_files: true
