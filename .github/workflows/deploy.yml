@@ -12,12 +12,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Marp Build
-        uses: marp-team/marp-cli-action@v3
-        with:
-          args: estres.md -o index.html
-        env:
-          MARP_USER: root:root
+      - name: Marp Build (Docker)
+        run: |
+          docker run --rm -v "${{ github.workspace }}:/home/marp/app" -e MARP_USER="$(id -u):$(id -g)" marpteam/marp-cli estres.md -o index.html
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
