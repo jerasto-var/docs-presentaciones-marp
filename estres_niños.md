@@ -43,14 +43,11 @@ Cuando el cerebro dice "¡PELIGRO!", el cuerpo hace cambios mágicos:
 
 ## 4. El Camino a la Calma 🗺️
 
-```mermaid
-graph TD
-    A[¡Algo salió mal! 😱] --> B{¿Respiro profundo?}
-    B -- SÍ --> C[Cerebro Feliz 😊]
-    B -- NO --> D[¡Explosión de enojo! 💥]
-    C --> E[¡Problema resuelto! ✅]
-    D --> F[Abrazo de Papá/Mamá 🫂]
-```
+| Si pasa esto... 😱 | ¡Haz esto! 💡 | ¿Cómo termina? 😊 |
+| :--- | :--- | :--- |
+| **¡Algo salió mal!** | Respiro profundo 🌬️ | Cerebro Feliz |
+| **¡Me enojé mucho!** | Pido un abrazo 🫂 | Calma Total |
+| **¡Tengo miedo!** | Dibujo mi miedo 🎨 | Soy un Valiente |
 
 ---
 
