@@ -1,23 +1,19 @@
-name: Deploy Marp to GitHub Pages
 on:
   push:
-    branches: [ main ]
+    paths:
+      - 'index.md'
+    branches:
+      - main
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Marp Build (Docker)
         run: |
-          docker run --rm -v "${{ github.workspace }}:/home/marp/app" -e MARP_USER="$(id -u):$(id -g)" marpteam/marp-cli estres.md -o index.html
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: .
-          branch: gh-pages
+          docker run --rm -v "${{ github.workspace }}:/home/marp/app" \
+          -e MARP_USER="$(id -u):$(id -g)" \
+          marpteam/marp-cli index.md --html -o index.html
