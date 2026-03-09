@@ -1,23 +1,24 @@
 name: Deploy Marp to GitHub Pages
 on:
   push:
-      branches: [ main ] # Se activa cuando subes algo a la rama principal
-  jobs:
-      build:
-            runs-on: ubuntu-latest
-                steps:
-                      - name: Checkout code
-                              uses: actions/checkout@v3
+    branches: [ main ] # Se activa cuando subes algo a la rama principal
 
-                                    - name: Marp Build
-                                            uses: marp-team/marp-cli-action@v1.2
-                                                    with:
-                                                              args: estres.md -o index.html # Convierte tu archivo a index.html
-                                                                      env:
-                                                                                MARP_USER: root:root
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-                                                                                      - name: Deploy to GitHub Pages
-                                                                                              uses: JamesIves/github-pages-deploy-action@v4
-                                                                                                      with:
-                                                                                                                folder: . # Sube el resultado a tu web
-                                                                                                                          branch: gh-pages # Lo guarda en una rama especial para la web
+      - name: Marp Build
+        uses: marp-team/marp-cli-action@v1.2
+        with:
+          args: estres.md -o index.html # Convierte tu archivo a index.html
+        env:
+          MARP_USER: root:root
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: . # Sube el resultado a tu web
+          branch: gh-pages # Lo guarda en una rama especial para la web
